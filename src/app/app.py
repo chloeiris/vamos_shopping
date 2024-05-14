@@ -13,7 +13,7 @@ COL_ID = "id_producto"
 COL_PRODUCTO = "producto"
 
 path_historial="data/historial_compras_hoy.csv"
-path_productos="data/productos.csv"
+path_productos="src/app/data/productos.csv"
 path_productos_en_t="data/productos_en_tiendas.csv"
 save_path="data/productos.csv"
 processed_path="data/processed/historial_compras_timestamp.csv"

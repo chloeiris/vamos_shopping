@@ -7,7 +7,7 @@ from productos import extract_new_products, calculate_ids, fill_with_value, extr
 logging.basicConfig(level=logging.DEBUG)
 
 COLS_HISTORIAL = []
-COLS_PRODUCTO = ["categoría", "id_producto", "producto", "marca", ("hay", 1), ("comprar", "N")]
+COLS_PRODUCTO = ["categoría", "id_producto", "producto", "marca", "hay", "comprar"]
 IND_DESCR_COLS = 5
 COL_ID = "id_producto"
 COL_PRODUCTO = "producto"

@@ -1,0 +1,110 @@
+,categoría,id_producto,producto,marca,hay,comprar
+0,Verdura,p1,Lechuga iceberg,,1,N
+1,Otros,p2,Chocolate 85%,,1,N
+2,Verdura,p3,Ajo,,1,N
+3,Conservas,p4,Sardinillas girasol,,1,N
+4,Conservas,p5,Atún al natural,,1,N
+5,Otros,p6,Coco rallado,,1,N
+6,Otros,p7,Panela,,1,N
+7,Fruta,p8,Manzanas,,1,N
+8,Pan y cereales,p9,Bollitos blancos,,1,N
+9,Frutos secos,p10,Semillas de calabaza,,1,N
+10,Lácteos,p11,Queso Gouda,,1,N
+11,Frutos secos,p12,Almendras,,1,N
+12,Lácteos,p13,Queso oveja,,1,N
+13,Huevos,p14,Huevos camperos,,1,N
+14,Charcutería,p15,Jamón serrano,,1,N
+15,Fruta,p16,Fresas,,1,N
+16,Verdura,p17,Zanahorias,,1,N
+17,Verdura,p18,Calabacín,,1,N
+18,Verdura,p19,Champiñones,,1,N
+19,Verdura,p20,Coliflor,,1,N
+20,Verdura,p21,Espinacas (bolsa),,1,N
+21,Verdura,p22,Naranjas,,1,N
+22,Verdura,p23,Pepino,,1,N
+23,Pan y cereales,p24,Cereales arroz choco,blanca,1,N
+24,Pan y cereales,p25,Copos avena s/gluten,blanca,1,N
+25,Pan y cereales,p26,Copos avena integral,blanca,1,N
+26,Charcutería,p27,Mojama,,1,N
+27,Charcutería,p28,Maruca salada,,1,N
+28,Hierbas,p29,Desmodium,,1,N
+29,Hierbas,p30,Diente de león,,1,N
+30,Hierbas,p31,Espliego,,1,N
+31,Hierbas,p32,Cardo Mariano,,1,N
+32,Pan y cereales,p33,Quinoa,,1,N
+33,Charcutería,p34,Chorizo,,1,N
+34,Verdura,p35,Escarola,,1,N
+35,Pescado,p36,Gambas cong.,,1,N
+36,Pescado,p37,Sepia cong.,,1,N
+37,Pescado,p38,Merluza cong. entera,,1,N
+38,Fruta,p39,Frutos rojos cong.,,1,N
+39,Fruta,p40,Arándanos cong.,,1,N
+40,Frutos secos,p41,Semillas de girasol,,1,N
+41,Hierbas,p42,Hierbabuena,,1,N
+42,Verdura,p43,Guisantes cong.,,1,N
+43,Verdura,p44,Judías verdes cong.,,1,N
+44,Hierbas,p45,Cilantro,,1,N
+45,Limpieza,p46,Aguafuerte,,1,N
+46,Lácteos,p47,Mantequilla,,1,N
+47,Verdura,p48,Canonigos-rúcula,,1,N
+48,Bebidas,p49,Mate,,1,N
+49,Gato,p50,Tierra gato,,1,N
+50,Gato,p51,Paté gato,,1,N
+51,Huevos,p52,Huevos de codorniz,,1,N
+52,Verdura,p53,Seta shiitake,,1,N
+53,Limpieza,p54,Papel de cocina,,1,N
+54,Frutos secos,p55,Nueces,,1,N
+55,Lácteos,p56,Leche,,1,N
+56,Limpieza,p57,Kleenex,,1,N
+57,Lácteos,p58,Yogur griego limón,,1,N
+58,Lácteos,p59,Yogur griego natural,,1,N
+59,Limpieza,p60,Papel higiénico,,1,N
+60,Otros,p61,Leche almendras,,1,N
+61,Encurtidos,p62,Aceitunas verdes,,1,N
+62,Otros,p63,Aceite de coco,,1,N
+63,Encurtidos,p64,Pepinillos,,1,N
+64,Pan y cereales,p65,Pan de molde (fibras),,1,N
+65,Pan y cereales,p66,Arroz largo,,1,N
+66,Aperitivos,p67,Kikos grandes,,1,N
+67,Otros,p68,Sal hornear,,1,N
+68,Conservas,p69,Boquerones aliñados,,1,N
+69,Verdura,p70,Jengibre,,1,N
+70,Pescado,p71,Caballa,,1,N
+71,Carnes,p72,Panceta/bacon,,1,N
+72,Carnes,p73,Cinta lomo,,1,N
+73,Carnes,p74,Carne picada,,1,N
+74,Carnes,p75,Pollo entero cortado,,1,N
+75,Carnes,p76,Hueso blanco,,1,N
+76,Bebidas,p77,Vino,,1,N
+77,Conservas,p78,Garbanzos cocidos,,1,N
+78,Encurtidos,p79,Aceitunas negras,,1,N
+79,Conservas,p80,Anchoas,,1,N
+80,Charcutería,p81,Jamón York,,1,N
+81,Pan y cereales,p82,Pan Jose,,1,N
+82,Verdura,p83,Patatas,,1,N
+83,Verdura,p84,Habas,,1,N
+84,Verdura,p85,Limones,,1,N
+85,Verdura,p86,Setas,,1,N
+86,Verdura,p87,Calabaza,,1,N
+87,Verdura,p88,Rabanitos,,1,N
+88,Verdura,p89,Lechuga,,1,N
+89,Verdura,p90,Endibias,,1,N
+90,Verdura,p91,Puerro,,1,N
+91,Verdura,p92,Brocoli,,1,N
+92,Conservas,p93,Tomate conserva,blanca,1,N
+93,Verdura,p94,Alcachofas cong.,blanca,1,N
+94,Limpieza,p95,Limpia cristales,ecocleox,1,N
+95,Lácteos,p96,Queso cabra,blanca,1,N
+96,Pan y cereales,p97,Tortitas de maíz,blanca,1,N
+97,Aperitivos,p98,Palomitas,,1,N
+98,Hierbas,p99,Manzanilla,,1,N
+99,Hierbas,p100,Té negro,,1,N
+100,Hierbas,p101,Té verde,,1,N
+101,Frutos secos,p102,Semillas de chía,TODO,1,N
+102,Otros,p103,Psillyum,NaturGreen,1,N
+103,Pan y cereales,p104,Trigo sarraceno,Naturitas,1,N
+104,Bebidas,p105,Kombucha,Naturitas,1,N
+105,Fruta,p106,Plátanos,,1,N
+106,Verdura,p107,Cebollas,,1,N
+107,Verdura,p108,Acelgas,,1,N
+108,Pan y cereales,p109,Colines,,1,N

@@ -1,0 +1,139 @@
+,fecha,tienda,categoría,id_producto,producto,marca,uds_en_paquete,uds,kg,precio_ud,precio_kg
+0,2024-04-15,Mercadona,Verdura,p1,Lechuga iceberg,,,1.0,0.25,0.69,2.76
+1,2024-04-15,Mercadona,Otros,p2,Chocolate 85%,,,1.0,,1.25,
+2,2024-04-15,Mercadona,Verdura,p3,Ajo,,,1.0,0.25,1.65,6.6
+3,2024-04-15,Mercadona,Conservas,p4,Sardinillas girasol,,2.0,1.0,0.13,1.5,11.54
+4,2024-04-29,Mercadona,Conservas,p4,Sardinillas girasol,,2.0,1.0,0.13,1.5,11.538461538461538
+5,2024-04-15,Mercadona,Conservas,p5,Atún al natural,,1.0,6.0,0.36,4.35,12.08
+6,2024-04-29,Mercadona,Conservas,p5,Atún al natural,,1.0,6.0,0.36,4.35,12.083333333333332
+7,2024-04-15,Mercadona,Otros,p6,Coco rallado,,,2.0,,1.1,
+8,2024-04-15,Mercadona,Otros,p7,Panela,,,1.0,0.5,1.95,3.9
+9,2024-04-15,Mercadona,Fruta,p8,Manzanas,,,1.0,,2.83,
+10,2024-04-26,Mercao,Fruta,p8,Manzanas,,,,1.304,2.3472,1.8
+11,2024-04-30,Mercadillo,Fruta,p8,Manzanas,,,,1.195,1.7925,1.5
+12,2024-04-15,Mercadona,Pan y cereales,p9,Bollitos blancos,,11.0,1.0,,1.1,
+13,2024-04-29,Mercadona,Pan y cereales,p9,Bollitos blancos,,11.0,1.0,,1.1,
+14,2024-04-15,Mercadona,Frutos secos,p10,Semillas de calabaza,,,2.0,0.15,1.63,10.86
+15,2024-04-29,Mercadona,Frutos secos,p10,Semillas de calabaza,,,2.0,0.15,1.63,10.866666666666667
+16,2024-04-15,Mercadona,Lácteos,p11,Queso Gouda,,,1.0,0.4,3.3,8.249999999999998
+17,2024-04-30,Día,Lácteos,p11,Queso Gouda,blanca,,2.0,0.8,3.19,7.98
+18,2024-04-15,Mercadona,Frutos secos,p12,Almendras,,,1.0,0.2,2.05,10.249999999999998
+19,2024-04-29,Mercadona,Frutos secos,p12,Almendras,,,2.0,0.2,2.05,10.249999999999998
+20,2024-04-15,Mercadona,Lácteos,p13,Queso oveja,,,1.0,0.341,5.47,16.05
+21,2024-04-29,Mercadona,Lácteos,p13,Queso oveja,,,,1.367,19.21,14.05
+22,2024-04-15,Mercadona,Huevos,p14,Huevos camperos,,12.0,1.0,,2.62,
+23,2024-04-26,Mercao,Huevos,p14,Huevos camperos,,6.0,1.0,,1.7,
+24,2024-04-29,Mercadona,Huevos,p14,Huevos camperos,,12.0,1.0,,2.62,
+25,2024-05-07,Obrador,Huevos,p14,Huevos camperos,,6.0,3.0,,1.8,
+26,2024-04-15,Mercadona,Charcutería,p15,Jamón serrano,,,1.0,0.24,4.1,17.0
+27,2024-04-30,Obrador,Charcutería,p15,Jamón serrano,,,,0.26,3.9,15.0
+28,2024-05-07,Obrador,Charcutería,p15,Jamón serrano,,,,0.25,3.75,15.0
+29,2024-04-15,Mercadona,Fruta,p16,Fresas,,,,2.6,4.8,2.4
+30,2024-04-29,Mercadona,Fruta,p16,Fresas,,,,1.0,2.45,2.45
+31,2024-05-07,Mercadillo,Fruta,p16,Fresas,,,,2.0,6.0,3.0
+32,2024-04-15,Mercadona,Verdura,p17,Zanahorias,,,1.0,1.0,1.09,1.09
+33,2024-04-30,Mercadillo,Verdura,p17,Zanahorias,,,,0.0,,0.0
+34,2024-05-07,Mercadillo,Verdura,p17,Zanahorias,,,,0.51,1.275,2.5
+35,2024-04-15,Mercadona,Verdura,p18,Calabacín,,,,0.962,1.72198,1.79
+36,2024-04-30,Mercadillo,Verdura,p18,Calabacín,,,,0.0,,0.0
+37,2024-04-26,Mercao,Verdura,p19,Champiñones,,,,0.488,1.7812,3.65
+38,2024-04-26,Mercao,Verdura,p20,Coliflor,,,1.0,,2.35,
+39,2024-04-30,Mercadillo,Verdura,p20,Coliflor,,,,0.0,,0.0
+40,2024-04-26,Mercao,Verdura,p21,Espinacas (bolsa),,,1.0,0.3,1.45,4.833333333333333
+41,2024-04-26,Mercao,Verdura,p22,Naranjas,,,,1.884,2.9202,1.55
+42,2024-04-30,Mercadillo,Verdura,p22,Naranjas,,,,3.05,3.05,1.0
+43,2024-05-07,Mercadillo,Verdura,p22,Naranjas,,,,1.4,1.4,1.0
+44,2024-04-26,Mercao,Verdura,p23,Pepino,,,,0.25,0.31,1.24
+45,2024-05-07,Mercadillo,Verdura,p23,Pepino,,,,0.365,0.73,2.0
+46,2024-04-29,Aldi,Pan y cereales,p24,Cereales arroz choco,blanca,,1.0,0.5,2.15,4.3
+47,2024-04-29,Aldi,Pan y cereales,p25,Copos avena s/gluten,blanca,,2.0,1.0,2.79,2.79
+48,2024-04-29,Aldi,Pan y cereales,p26,Copos avena integral,blanca,,1.0,1.0,0.85,0.85
+49,2024-04-29,Doña Chacina,Charcutería,p27,Mojama,,,,0.22,8.8,40.0
+50,2024-04-29,Doña Chacina,Charcutería,p28,Maruca salada,,,2.0,0.15,1.5,20.0
+51,2024-04-29,Herbolario,Hierbas,p29,Desmodium,,,1.0,0.05,3.1,62.0
+52,2024-04-29,Herbolario,Hierbas,p30,Diente de león,,,1.0,0.05,1.75,35.0
+53,2024-04-29,Herbolario,Hierbas,p31,Espliego,,,1.0,0.05,1.85,37.0
+54,2024-04-29,Herbolario,Hierbas,p32,Cardo Mariano,,,1.0,0.1,2.1,21.0
+55,2024-04-29,Mercadona,Pan y cereales,p33,Quinoa,,,,0.5,2.65,5.3
+56,2024-04-29,Mercadona,Charcutería,p34,Chorizo,,,2.0,0.28,2.49,8.892857142857142
+57,2024-04-29,Mercadona,Verdura,p35,Escarola,,,1.0,0.15,0.85,5.666666666666667
+58,2024-04-29,Mercadona,Pescado,p36,Gambas cong.,,,1.0,0.36,4.95,13.750000000000002
+59,2024-04-29,Mercadona,Pescado,p37,Sepia cong.,,,1.0,0.36,4.0,11.11111111111111
+60,2024-04-29,Mercadona,Pescado,p38,Merluza cong. entera,,,1.0,1.0,5.0,5.0
+61,2024-04-29,Mercadona,Fruta,p39,Frutos rojos cong.,,,1.0,0.3,1.5,5.0
+62,2024-04-29,Mercadona,Fruta,p40,Arándanos cong.,,,1.0,0.3,1.97,6.566666666666666
+63,2024-04-29,Mercadona,Frutos secos,p41,Semillas de girasol,,,2.0,0.2,1.2,5.999999999999999
+64,2024-04-29,Mercadona,Hierbas,p42,Hierbabuena,,,1.0,0.04,0.99,24.75
+65,2024-04-29,Mercadona,Verdura,p43,Guisantes cong.,,,1.0,1.0,1.6,1.6
+66,2024-04-29,Mercadona,Verdura,p44,Judías verdes cong.,,,1.0,1.0,1.55,1.55
+67,2024-04-29,Mercadona,Hierbas,p45,Cilantro,,,2.0,0.02,1.25,62.5
+68,2024-04-29,Mercadona,Limpieza,p46,Aguafuerte,,,1.0,,1.1,
+69,2024-04-29,Mercadona,Lácteos,p47,Mantequilla,,,2.0,0.25,1.9,7.6
+70,2024-04-29,Mercadona,Verdura,p48,Canonigos-rúcula,,,1.0,,1.38,
+71,2024-04-29,Mercadona,Bebidas,p49,Mate,,,2.0,0.5,2.85,5.7
+72,2024-04-29,Mercadona,Gato,p50,Tierra gato,,,1.0,5.0,1.4,0.28
+73,2024-04-29,Mercadona,Gato,p51,Paté gato,,,1.0,0.4,1.2,3.0
+74,2024-04-29,Mercadona,Huevos,p52,Huevos de codorniz,,18.0,1.0,,1.65,
+75,2024-04-29,Mercadona,Verdura,p53,Seta shiitake,,,1.0,0.208,2.13,10.24
+76,2024-04-29,Mercadona,Limpieza,p54,Papel de cocina,,1.0,3.0,,2.1,
+77,2024-04-29,Mercadona,Frutos secos,p55,Nueces,,,1.0,0.6,3.25,5.416666666666667
+78,2024-04-29,Mercadona,Lácteos,p56,Leche,,,2.0,,0.91,
+79,2024-04-29,Mercadona,Limpieza,p57,Kleenex,,10.0,1.0,,1.45,
+80,2024-04-29,Mercadona,Lácteos,p58,Yogur griego limón,,6.0,1.0,0.75,1.85,2.466666666666667
+81,2024-04-29,Mercadona,Lácteos,p59,Yogur griego natural,,6.0,1.0,0.75,1.6,2.1333333333333333
+82,2024-04-29,Mercadona,Limpieza,p60,Papel higiénico,,12.0,1.0,,2.25,
+83,2024-04-29,Mercadona,Otros,p61,Leche almendras,,,1.0,1.0,1.3,1.3
+84,2024-04-29,Mercadona,Encurtidos,p62,Aceitunas verdes,,,1.0,0.4,2.6,6.5
+85,2024-04-29,Mercadona,Otros,p63,Aceite de coco,,,1.0,0.418,4.4,10.526315789473683
+86,2024-04-29,Mercadona,Encurtidos,p64,Pepinillos,,,1.0,0.36,1.4,3.888888888888889
+87,2024-04-29,Mercadona,Pan y cereales,p65,Pan de molde (fibras),,,1.0,0.6,1.4,2.333333333333333
+88,2024-04-29,Mercadona,Pan y cereales,p66,Arroz largo,,,,1.0,1.35,1.35
+89,2024-04-29,Mercadona,Aperitivos,p67,Kikos grandes,,,1.0,0.15,1.4,9.333333333333334
+90,2024-04-29,Mercadona,Otros,p68,Sal hornear,,,2.0,4.0,1.1,0.55
+91,2024-04-29,Mercadona,Conservas,p69,Boquerones aliñados,,,1.0,0.06,1.8,30.000000000000004
+92,2024-04-29,Mercadona,Verdura,p70,Jengibre,,,1.0,0.267,2.26,8.45
+93,2024-04-29,Mercadona,Pescado,p71,Caballa,,,,1.578,6.2331,3.95
+94,2024-04-30,Carnicería,Carnes,p72,Panceta/bacon,,,,0.56,4.424,7.9
+95,2024-04-30,Carnicería,Carnes,p73,Cinta lomo,,,,1.4,11.06,7.9
+96,2024-04-30,Carnicería,Carnes,p74,Carne picada,,,,1.055,7.174,6.8
+97,2024-04-30,Carnicería,Carnes,p75,Pollo entero cortado,,,,2.525,8.96375,3.55
+98,2024-04-30,Carnicería,Carnes,p76,Hueso blanco,,,,0.305,0.53375,1.75
+99,2024-04-30,Obrador,Bebidas,p77,Vino,,,1.0,,2.75,
+100,2024-05-07,Obrador,Bebidas,p77,Vino,,,1.0,,2.2,
+101,2024-04-30,Obrador,Conservas,p78,Garbanzos cocidos,,,1.0,,1.1,
+102,2024-04-30,Obrador,Encurtidos,p79,Aceitunas negras,,,1.0,,1.0,
+103,2024-05-07,Obrador,Encurtidos,p79,Aceitunas negras,,,2.0,0.15,1.0,6.666666666666667
+104,2024-04-30,Obrador,Conservas,p80,Anchoas,,,1.0,0.05,2.0,40.0
+105,2024-04-30,Obrador,Charcutería,p81,Jamón York,,,,0.255,3.1875,12.5
+106,2024-05-07,Obrador,Charcutería,p81,Jamón York,,,,0.25,3.125,12.5
+107,2024-04-30,Obrador,Pan y cereales,p82,Pan Jose,,,1.0,,1.85,
+108,2024-04-30,Mercadillo,Verdura,p83,Patatas,,,,1.295,1.295,1.0
+109,2024-04-30,Mercadillo,Verdura,p84,Habas,,,,2.27,4.54,2.0
+110,2024-05-07,Mercadillo,Verdura,p84,Habas,,,,2.535,6.3375,2.5
+111,2024-04-30,Mercadillo,Verdura,p85,Limones,,,,1.175,1.7625000000000002,1.5
+112,2024-04-30,Mercadillo,Verdura,p86,Setas,,,,0.0,,0.0
+113,2024-05-07,Mercadillo,Verdura,p86,Setas,,,0.56,0.56,1.96,3.5
+114,2024-04-30,Mercadillo,Verdura,p87,Calabaza,,,,0.0,,0.0
+115,2024-04-30,Mercadillo,Verdura,p88,Rabanitos,,,,0.0,,0.0
+116,2024-04-30,Mercadillo,Verdura,p89,Lechuga,,,,0.0,,0.0
+117,2024-04-30,Mercadillo,Verdura,p90,Endibias,,,,0.0,,0.0
+118,2024-04-30,Mercadillo,Verdura,p91,Puerro,,,,0.0,,0.0
+119,2024-05-07,Mercadillo,Verdura,p91,Puerro,,,1.0,,1.5,
+120,2024-04-30,Día,Verdura,p92,Brocoli,,,1.0,0.5,1.39,2.78
+121,2024-04-30,Día,Conservas,p93,Tomate conserva,blanca,,2.0,,1.4,
+122,2024-04-30,Día,Verdura,p94,Alcachofas cong.,blanca,,2.0,0.4,2.69,5.17
+123,2024-04-30,Día,Limpieza,p95,Limpia cristales,ecocleox,3.0,1.0,,3.19,
+124,2024-04-30,Día,Lácteos,p96,Queso cabra,blanca,,1.0,0.55,7.79,14.16
+125,2024-04-30,Día,Pan y cereales,p97,Tortitas de maíz,blanca,,3.0,,1.29,
+126,2024-04-30,Mercao,Aperitivos,p98,Palomitas,,,,0.79,2.0066,2.54
+127,2024-04-30,Mercao,Hierbas,p99,Manzanilla,,,,0.048,0.96,20.0
+128,2024-04-30,Mercao,Hierbas,p100,Té negro,,,,0.1,1.69,16.9
+129,2024-04-30,Mercao,Hierbas,p101,Té verde,,,,0.13,1.6601,12.77
+130,2024-05-06,Herbolario,Frutos secos,p102,Semillas de chía,TODO,,1.0,0.25,3.85,15.4
+131,2024-05-06,Herbolario,Otros,p103,Psillyum,NaturGreen,,1.0,0.125,6.15,49.2
+132,2024-04-27,Online,Pan y cereales,p104,Trigo sarraceno,Naturitas,,1.0,1.0,4.99,4.99
+133,2024-04-27,Online,Bebidas,p105,Kombucha,Naturitas,,1.0,0.5,3.79,7.58
+134,2024-05-07,Mercadillo,Fruta,p106,Plátanos,,,,0.595,0.952,1.6
+135,2024-05-07,Mercadillo,Verdura,p107,Cebollas,,,,0.76,0.95,1.25
+136,2024-05-07,Mercadillo,Verdura,p108,Acelgas,,,,0.69,1.104,1.6
+137,2024-05-07,Obrador,Pan y cereales,p109,Colines,,,1.0,,0.75,

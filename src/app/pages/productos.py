@@ -1,5 +1,7 @@
 import pandas as pd
 import logging
+import shutil
+from datetime import datetime as dt
 import streamlit as st
 logging.basicConfig(level=logging.DEBUG)
 
@@ -11,6 +13,7 @@ COL_PRODUCTO = "producto"
 
 path_historial = "src/app/data/historial_compras_hoy.csv"
 path_productos = "src/app/data/productos.csv"
+backup_productos = "src/app/data/backup/productos"
 path_productos_en_t = "src/app/data/productos_en_tiendas.csv"
 save_path = "src/app/data/productos.csv"
 processed_path = "src/app/data/processed/historial_compras_timestamp.csv"
@@ -58,19 +61,26 @@ try:
 except FileNotFoundError:
     logging.info("No existen productos registrados. Empezando un nuevo registro...")
     productos = pd.DataFrame(columns=COLS_PRODUCTO)
+with st.container:
+    edit_productos = st.data_editor(productos,
+                num_rows='dynamic',
+                use_container_width=True,
+                disabled=['producto', 'id_producto'],
+                #hide_index=True,
+                column_config={
+                                        "comprar": st.column_config.CheckboxColumn(
+                                            "comprar",
+                                            help="Selecciona si quieres comprarme!",
+                                            default=False,
+                                            )
+                                        }
+                )
 
-st.data_editor(productos,
-               num_rows='dynamic',
-               hide_index=True,
-               column_config={
-                                    "comprar": st.column_config.CheckboxColumn(
-                                        "comprar",
-                                        help="Selecciona si quieres comprarme!",
-                                        default=False,
-                                        )
-                                    }
-            )
+    if st.button("Hacer Lista de la Compra"):
+        comprar_df = edit_productos[edit_productos["comprar"] is True]
+        comprar_df.to_csv("src/app/data/comprar_productos.csv")
+        st.switch_page("pages/lista_de_la_compra.py")
 
-if st.button("Hacer Lista de la Compra"):
-    st.text("Hi!")
-    
+    if st.button("Guardar Productos"):
+        shutil.copyfile(path_productos, backup_productos+dt.strftime(dt.now()))
+        edit_productos.to_csv(path_productos)

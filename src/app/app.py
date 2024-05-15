@@ -10,8 +10,8 @@ st.header("Bienvenido a Vamos Shopping!")
 st.sidebar.write("Vamos Shopping!")
 with st.sidebar:
     st.page_link("app.py", label="Home", icon="🏠")
-    st.page_link("src/app/paginas/productos.py", label="Productos")
-    st.page_link("src/app/paginas/lista_de_la_compra.py", label="Lista de la Compra")
+    st.page_link("pages/productos.py", label="Productos")
+    st.page_link("pages/lista_de_la_compra.py", label="Lista de la Compra")
     #st.page_link("http://www.google.com", label="Google", icon="🌎")
 
 

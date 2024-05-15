@@ -26,8 +26,8 @@ if st.sidebar.button("Productos"):
         logging.info("No existen productos registrados. Empezando un nuevo registro...")
         productos = pd.DataFrame(columns=COLS_PRODUCTO)
     
-    edit_productos = st.data_editor(productos, num_rows='dynamic',
-                                    column_config={
+    st.data_editor(productos, num_rows='dynamic',
+                   column_config={
                                     "comprar": st.column_config.CheckboxColumn(
                                         "comprar",
                                         help="Selecciona si quieres comprarme!",
@@ -36,13 +36,13 @@ if st.sidebar.button("Productos"):
                                     }, hide_index=True)
 
     if st.button("Hacer Lista de la Compra"):
-        comprar_df = edit_productos[edit_productos["comprar"] is True]
-        productos_en_tiendas = pd.read_csv(path_productos_en_t, index_col=0, encoding='utf-8')
-        if comprar_df.duplicated().sum() == 0:
-            lista_compra = comprar_df.merge(productos_en_tiendas, on="id_producto", how="left")
-            logging.info("Lista de la compra calculada!")
-            #TODO: redireccionar a pestaña
-        logging.info("Hay productos duplicados en tu lista. Revísala bien.")
+        # comprar_df = edit_productos[edit_productos["comprar"] is True]
+        # productos_en_tiendas = pd.read_csv(path_productos_en_t, index_col=0, encoding='utf-8')
+        # if comprar_df.duplicated().sum() == 0:
+        #     lista_compra = comprar_df.merge(productos_en_tiendas, on="id_producto", how="left")
+        #     logging.info("Lista de la compra calculada!")
+        #     #TODO: redireccionar a pestaña
+        # logging.info("Hay productos duplicados en tu lista. Revísala bien.")
     # Mostrar el df y un checkbox para marcar lo que hay que comprar
     # Filtrar por True y guardar en otra variable
     # Poner un boton de "Hacer lista de la compra"

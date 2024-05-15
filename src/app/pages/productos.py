@@ -82,5 +82,5 @@ with st.container():
         st.switch_page("pages/lista_de_la_compra.py")
 
     if st.button("Guardar Productos"):
-        shutil.copyfile(path_productos, backup_productos+dt.now().strftime("%Y%m%d%H%M%S"))
+        shutil.copyfile(path_productos, backup_productos+dt.now().strftime("%Y%m%d%H%M%S")+'.csv')
         edit_productos.to_csv(path_productos)

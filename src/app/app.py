@@ -36,6 +36,7 @@ if st.sidebar.button("Productos"):
                                     }, hide_index=True)
 
     if st.button("Hacer Lista de la Compra"):
+        st.text("Hi!")
         # comprar_df = edit_productos[edit_productos["comprar"] is True]
         # productos_en_tiendas = pd.read_csv(path_productos_en_t, index_col=0, encoding='utf-8')
         # if comprar_df.duplicated().sum() == 0:

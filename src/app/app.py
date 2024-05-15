@@ -26,10 +26,10 @@ if st.sidebar.button("Productos"):
         logging.info("No existen productos registrados. Empezando un nuevo registro...")
         productos = pd.DataFrame(columns=COLS_PRODUCTO)
     
-    with st.data_editor(productos) as edit_productos:
-        comprar_df = edit_productos[edit_productos["comprar"] is True]
+    edit_productos = st.data_editor(productos, num_rows='dynamic', hide_index=True, )
 
     if st.button("Hacer Lista de la Compra"):
+        comprar_df = edit_productos[edit_productos["comprar"] is True]
         productos_en_tiendas = pd.read_csv(path_productos_en_t, index_col=0, encoding='utf-8')
         if comprar_df.duplicated().sum() == 0:
             lista_compra = comprar_df.merge(productos_en_tiendas, on="id_producto", how="left")

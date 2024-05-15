@@ -2,7 +2,7 @@ import logging
 import pandas as pd
 import streamlit as st
 
-from productos import extract_new_products, calculate_ids, fill_with_value, extract_bought_products
+#from pages.productos import extract_new_products, calculate_ids, fill_with_value, extract_bought_products
 
 logging.basicConfig(level=logging.DEBUG)
 

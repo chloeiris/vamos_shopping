@@ -12,11 +12,11 @@ IND_DESCR_COLS = 5
 COL_ID = "id_producto"
 COL_PRODUCTO = "producto"
 
-path_historial="data/historial_compras_hoy.csv"
+path_historial="src/app/data/historial_compras_hoy.csv"
 path_productos="src/app/data/productos.csv"
-path_productos_en_t="data/productos_en_tiendas.csv"
-save_path="data/productos.csv"
-processed_path="data/processed/historial_compras_timestamp.csv"
+path_productos_en_t="src/app/data/productos_en_tiendas.csv"
+save_path="src/app/data/productos.csv"
+processed_path="src/app/data/processed/historial_compras_timestamp.csv"
 
 st.sidebar.write("Vamos Shopping!")
 if st.sidebar.button("Productos"):
@@ -26,8 +26,8 @@ if st.sidebar.button("Productos"):
         logging.info("No existen productos registrados. Empezando un nuevo registro...")
         productos = pd.DataFrame(columns=COLS_PRODUCTO)
     
-    edit_productos = st.data_editor(productos)
-    comprar_df = edit_productos[edit_productos["comprar"]==True]
+    with st.data_editor(productos) as edit_productos:
+        comprar_df = edit_productos[edit_productos["comprar"] is True]
 
     if st.button("Hacer Lista de la Compra"):
         productos_en_tiendas = pd.read_csv(path_productos_en_t, index_col=0, encoding='utf-8')

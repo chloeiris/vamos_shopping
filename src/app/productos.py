@@ -1,7 +1,19 @@
 import pandas as pd
 import logging
+import streamlit as st
 logging.basicConfig(level=logging.DEBUG)
 
+COLS_HISTORIAL = []
+COLS_PRODUCTO = ["categoría", "id_producto", "producto", "marca", "hay", "comprar"]
+IND_DESCR_COLS = 5
+COL_ID = "id_producto"
+COL_PRODUCTO = "producto"
+
+path_historial = "src/app/data/historial_compras_hoy.csv"
+path_productos = "src/app/data/productos.csv"
+path_productos_en_t = "src/app/data/productos_en_tiendas.csv"
+save_path = "src/app/data/productos.csv"
+processed_path = "src/app/data/processed/historial_compras_timestamp.csv"
 
 def calculate_ids(dataf=pd.DataFrame, id_col=str):
     max_id = dataf[id_col].max()
@@ -41,4 +53,24 @@ def extract_bought_products(df_historial: pd.DataFrame, df_productos: pd.DataFra
 # def update_historial_with_ids(df_historial: pd.DataFrame, df_productos: pd.DataFrame, product_name: str) -> None:
 #     df_historial_out = df_historial.merge(df_productos, on=product_name)
 
+try:
+    productos = pd.read_csv(path_productos, index_col=0, encoding='utf-8')
+except FileNotFoundError:
+    logging.info("No existen productos registrados. Empezando un nuevo registro...")
+    productos = pd.DataFrame(columns=COLS_PRODUCTO)
 
+st.data_editor(productos,
+               num_rows='dynamic',
+               hide_index=True,
+               column_config={
+                                    "comprar": st.column_config.CheckboxColumn(
+                                        "comprar",
+                                        help="Selecciona si quieres comprarme!",
+                                        default=False,
+                                        )
+                                    }
+            )
+
+if st.button("Hacer Lista de la Compra"):
+    st.text("Hi!")
+    

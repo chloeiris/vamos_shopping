@@ -6,37 +6,32 @@ from productos import extract_new_products, calculate_ids, fill_with_value, extr
 
 logging.basicConfig(level=logging.DEBUG)
 
-COLS_HISTORIAL = []
-COLS_PRODUCTO = ["categoría", "id_producto", "producto", "marca", "hay", "comprar"]
-IND_DESCR_COLS = 5
-COL_ID = "id_producto"
-COL_PRODUCTO = "producto"
-
-path_historial="src/app/data/historial_compras_hoy.csv"
-path_productos="src/app/data/productos.csv"
-path_productos_en_t="src/app/data/productos_en_tiendas.csv"
-save_path="src/app/data/productos.csv"
-processed_path="src/app/data/processed/historial_compras_timestamp.csv"
 
 st.sidebar.write("Vamos Shopping!")
-if st.sidebar.button("Productos"):
-    try:
-        productos = pd.read_csv(path_productos, index_col=0, encoding='utf-8')
-    except FileNotFoundError:
-        logging.info("No existen productos registrados. Empezando un nuevo registro...")
-        productos = pd.DataFrame(columns=COLS_PRODUCTO)
-    
-    st.data_editor(productos, num_rows='dynamic',
-                   column_config={
-                                    "comprar": st.column_config.CheckboxColumn(
-                                        "comprar",
-                                        help="Selecciona si quieres comprarme!",
-                                        default=False,
-                                        )
-                                    }, hide_index=True)
+with st.sidebar:
+    st.page_link("app.py", label="Home", icon="🏠")
+    st.page_link("productos.py", label="Productos")
+    st.page_link("lista_de_la_compra.py", label="Lista de la Compra")
+    #st.page_link("http://www.google.com", label="Google", icon="🌎")
 
-    if st.button("Hacer Lista de la Compra"):
-        st.text("Hi!")
+st.header("Bienvenido a Vamos Shopping!")
+    # try:
+    #     productos = pd.read_csv(path_productos, index_col=0, encoding='utf-8')
+    # except FileNotFoundError:
+    #     logging.info("No existen productos registrados. Empezando un nuevo registro...")
+    #     productos = pd.DataFrame(columns=COLS_PRODUCTO)
+    
+    # st.data_editor(productos, num_rows='dynamic',
+    #                column_config={
+    #                                 "comprar": st.column_config.CheckboxColumn(
+    #                                     "comprar",
+    #                                     help="Selecciona si quieres comprarme!",
+    #                                     default=False,
+    #                                     )
+    #                                 }, hide_index=True)
+
+    # if st.button("Hacer Lista de la Compra"):
+    #     st.text("Hi!")
         # comprar_df = edit_productos[edit_productos["comprar"] is True]
         # productos_en_tiendas = pd.read_csv(path_productos_en_t, index_col=0, encoding='utf-8')
         # if comprar_df.duplicated().sum() == 0:

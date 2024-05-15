@@ -61,7 +61,7 @@ try:
 except FileNotFoundError:
     logging.info("No existen productos registrados. Empezando un nuevo registro...")
     productos = pd.DataFrame(columns=COLS_PRODUCTO)
-with st.container:
+with st.container():
     edit_productos = st.data_editor(productos,
                 num_rows='dynamic',
                 use_container_width=True,

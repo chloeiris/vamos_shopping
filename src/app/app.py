@@ -6,9 +6,10 @@ import streamlit as st
 
 logging.basicConfig(level=logging.DEBUG)
 
-st.header("Bienvenido a Vamos Shopping!")
+with st.container():
+    st.header("Bienvenido a Vamos Shopping!")
 st.sidebar.write("Vamos Shopping!")
-with st.sidebar:
+with st.sidebar():
     st.page_link("app.py", label="Home", icon="🏠")
     st.page_link("pages/productos.py", label="Productos")
     st.page_link("pages/lista_de_la_compra.py", label="Lista de la Compra")

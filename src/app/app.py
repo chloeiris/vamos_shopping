@@ -26,7 +26,14 @@ if st.sidebar.button("Productos"):
         logging.info("No existen productos registrados. Empezando un nuevo registro...")
         productos = pd.DataFrame(columns=COLS_PRODUCTO)
     
-    edit_productos = st.data_editor(productos, num_rows='dynamic', hide_index=True, )
+    edit_productos = st.data_editor(productos, num_rows='dynamic',
+                                    column_config={
+                                    "comprar": st.column_config.CheckboxColumn(
+                                        "comprar",
+                                        help="Selecciona si quieres comprarme!",
+                                        default=False,
+                                        )
+                                    }, hide_index=True)
 
     if st.button("Hacer Lista de la Compra"):
         comprar_df = edit_productos[edit_productos["comprar"] is True]

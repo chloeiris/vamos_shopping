@@ -77,7 +77,7 @@ with st.container():
                 )
 
     if st.button("Hacer Lista de la Compra"):
-        comprar_df = edit_productos[edit_productos["comprar"] is True]
+        comprar_df = edit_productos[edit_productos["comprar"] == True]
         comprar_df.to_csv("src/app/data/comprar_productos.csv")
         st.switch_page("pages/lista_de_la_compra.py")
 

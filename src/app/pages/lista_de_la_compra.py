@@ -12,9 +12,10 @@ logging.basicConfig(level=logging.DEBUG)
 with st.container():
     st.header("Lista de la Compra")
 
-    productos = pd.read_csv(Productos.file_path, index_col=0, encoding="utf-8")[Productos.SUB_COLS]
+    productos = pd.read_csv(Productos.file_path, index_col=0, encoding="utf-8")
+    productos_comprar = filter_list(productos)[Productos.SUB_COLS]
+    
     if productos.duplicated().sum() == 0:
-        productos_comprar = filter_list(productos)
         productos_en_tiendas = pd.read_csv(ProductosEnTiendas.file_path, index_col=0, encoding="utf-8")[ProductosEnTiendas.SUB_COLS]
         lista_compra = productos_comprar.merge(productos_en_tiendas, on=Productos.ID_COL, how="left").drop(Productos.ID_COL, axis=1)
         lista_compra.insert(0, "comprado", [False]*lista_compra.shape[0])

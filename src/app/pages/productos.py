@@ -32,7 +32,7 @@ with st.container():
                 ),
             "categoría": st.column_config.SelectboxColumn(
                 "categoría",
-                default="Nuevo"
+                default="Nuevo",
                 options=list(productos["categoría"].unique())
             )
             }

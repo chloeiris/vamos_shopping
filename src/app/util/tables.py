@@ -4,7 +4,7 @@ class Table():
     DEFAULT = {}
     ID_COL = "id_producto"
     COL_PRODUCTO = "producto"
-    backup_path = "src/app/data/backup"
+    backup_path = "src/app/data/backup/"
 
     def __init__(self, file_path, file_name):
         self.file_path = file_path

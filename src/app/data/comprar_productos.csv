@@ -1,15 +1,6 @@
 ,categoría,id_producto,producto,marca,hay,comprar
-0,Verdura,p1,Lechuga iceberg,,1,False
-1,Otros,p2,Chocolate 85%,,1,False
-2,Verdura,p3,Ajo,,1,False
-3,Conservas,p4,Sardinillas girasol,,1,False
-4,Conservas,p5,Atún al natural,,1,False
-14,Charcutería,p15,Jamón serrano,,1,False
-15,Fruta,p16,Fresas,,1,False
-16,Verdura,p17,Zanahorias,,1,False
-17,Verdura,p18,Calabacín,,1,False
-18,Verdura,p19,Champiñones,,1,False
-19,Verdura,p20,Coliflor,,1,False
-20,Verdura,p21,Espinacas (bolsa),,1,False
-21,Verdura,p22,Naranjas,,1,False
-200, prueba, pp, Pomelo,,1,False
+0,Verdura,p1,Lechuga iceberg,,1,True
+1,Otros,p2,Chocolate 85%,,1,True
+2,Verdura,p3,Ajo,,1,True
+3,Conservas,p4,Sardinillas girasol,,1,True
+4,Conservas,p5,Atún al natural,,1,True
